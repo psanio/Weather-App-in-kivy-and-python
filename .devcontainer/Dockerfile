@@ -1,6 +1,5 @@
 # Use Ubuntu as the base image
-FROM debian:12-slim
-ENV DEBIAN_FRONTEND=noninteractive 
+FROM ubuntu:20.04-slim
 
 # Install necessary packages
 RUN apt-get update && apt-get install -y \
