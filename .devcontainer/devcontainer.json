@@ -1,0 +1,13 @@
+{
+    "name": "Kivy and Buildozer",
+    "context": "..",
+    "dockerFile": "Dockerfile",
+    "settings": {
+        "python.pythonPath": "/usr/bin/python3"
+    },
+    "extensions": [
+        "ms-python.python"
+    ],
+    "postCreateCommand": "pip install kivy buildozer",
+    "remoteUser": "coder"
+}
