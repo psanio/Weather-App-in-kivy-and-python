@@ -8,6 +8,6 @@
     "extensions": [
         "ms-python.python"
     ],
-    "postCreateCommand": "pip install kivy buildozer",
+    "postCreateCommand": "pip install kivy==1.11.1",
     "remoteUser": "coder"
 }
