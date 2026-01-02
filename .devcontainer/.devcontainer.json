@@ -1,0 +1,8 @@
+{ "name": "psanio alt dev",
+  "build": { 
+    "dockerfile": "Dockerfile", 
+    "context": "." },  
+  "containerEnv": { 
+    "DEV_PAT": "${localEnv:DEV_PAT}" }, 
+  "remoteUser": "coder"
+}
