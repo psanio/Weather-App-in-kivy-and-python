@@ -1,4 +1,4 @@
-FROM debian:11-slim
+FROM mcr.microsoft.com/devcontainers/base:ubuntu18.04
 ENV DEBIAN_FRONTEND=noninteractive 
 
 RUN apt-get update \
